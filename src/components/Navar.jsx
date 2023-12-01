@@ -7,11 +7,11 @@ import { MisDatos } from '../Context/Myprovaider';
 
 const Navbar = () => {
 
-  //const [mostrarCampos, setMostrarCampos] = useState(false);
+  const [mostrarCampos, setMostrarCampos] = useState(false);
 
-  //const [idNuevo, setIdNuevo] = useState(0);
+  const [idNuevo, setIdNuevo] = useState(0);
 
- //const {datos, setDatos} = useContext(MisDatos)
+ const {datos, setDatos} = useContext(MisDatos)
 
   const handleAñadirCartaClick = () => {
     setMostrarCampos(!mostrarCampos);
